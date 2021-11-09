@@ -3,9 +3,7 @@ import React from 'react'
 export default function SearchCountry() {
   return (
     <div>
-      <form action="searchCountry">
-        <input type="text" />
-      </form>
+        <input type="text" placeholder="Search for a country"/>
     </div>
   )
 }
