@@ -13,23 +13,41 @@ const device = {
   desktop: `(min-width: ${size.desktop})`,
 };
 
-const CountryGrid = styled.div`
+const Details = styled.div`
+  .image{
+    max-width: 300px;
+  }
   justify-items: center;
-  margin: auto 10px;
+  margin: 10px 10px;
   display: grid;
   @media ${device.mobile}{
-    grid-template-columns: 1fr;
+    grid-template-rows: 40% 60%;
+    .image{
+    max-width: 300px;
+    }
   }
   @media ${device.tablet}{
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 60%;
+    .image{
+    max-width: 500px;
+  }
   }
   @media ${device.laptop}{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 40% 60%;
+    margin: 20px 100px;
+    .image{
+    max-width: 550px;
+    }
   }
   @media ${device.desktop}{
-    margin: auto 100px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 40% 60%;
+    margin: 20px 100px;
+    .image{
+    max-width: 700px;
+    }
   }
-`
+`;
 
-export default CountryGrid
+
+export default Details;
+

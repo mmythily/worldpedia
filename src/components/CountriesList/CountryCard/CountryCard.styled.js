@@ -17,6 +17,7 @@ const CountryCard = styled.div`
   }
   .card{
     padding-left:10px;
+    
   }
 `
 

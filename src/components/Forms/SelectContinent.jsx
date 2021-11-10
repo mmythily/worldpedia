@@ -4,7 +4,7 @@ export default function SelectContinent() {
   return (
     <div>
       <select name="continent" id="coontinent">
-        <option value="all" selelcted>All</option>
+        <option value="all" defaultValue>All</option>
         <option value="africa">Africa</option>
         <option value="america">America</option>
         <option value="asia">Asia</option>
