@@ -11,7 +11,7 @@ const Button = styled.button`
   border-radius: 5px;
   box-shadow: 1px 1px 20px 11px #eee;
   padding:10px 20px 10px 10px;
-  margin: 15px 10px;
+  margin: 15px 30px;
   font-size: 25px;
   background-color: white;
 `

@@ -13,21 +13,24 @@ function App() {
   const [input] = useState('and')
 
   useEffect(() => {
-      if(input.length === 0){
-        const all = async () =>{
-          const response = await fetchCountries()
-          setCountries(response.data)
-        }
-        all()
+    if(input.length === 0){
+      const all = async () =>{
+        const response = await fetchCountries()
+        setCountries(response.data)
       }
-      else{
-        const some = async () =>{
-          const response = await fetchCountry(input)
-          setCountries(response.data)
-        }
-        some()
+      all()
+    }
+    else{
+      const some = async () =>{
+        const response = await fetchCountry(input)
+        setCountries(response.data)
       }
-    }, [input])
+      some()
+    }
+  }, [input])
+
+
+
   return (
     <Router>
     <div className="App">
