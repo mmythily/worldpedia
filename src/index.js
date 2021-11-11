@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+const ThemeContext = React.createContext()
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeContext.Provider>
+      <App />
+    </ThemeContext.Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
