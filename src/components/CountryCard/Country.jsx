@@ -1,4 +1,3 @@
-import React from 'react'
 import CountryStyled from './CountryCard.styled'
 
 export default function Country({country}) {

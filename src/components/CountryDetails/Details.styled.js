@@ -34,6 +34,7 @@ const Details = styled.div`
   }
   @media ${device.laptop}{
     grid-template-columns: 40% 60%;
+    column-gap: 75px;
     margin: 20px 100px;
     .image{
     max-width: 550px;

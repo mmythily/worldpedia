@@ -25,6 +25,7 @@ const CountryGrid = styled.div`
   }
   @media ${device.laptop}{
     grid-template-columns: 1fr 1fr 1fr;
+    
   }
   @media ${device.desktop}{
     margin: auto 100px;
