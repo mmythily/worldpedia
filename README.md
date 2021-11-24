@@ -1,4 +1,4 @@
-## Worldpedia(https://worldpedia-flags.netlify.app/) - A React application consuming countries API with use of react hooks and context to pass data between components.
+## [Worldpedia](https://worldpedia-flags.netlify.app/) - A React application consuming countries API with use of react hooks and context to pass data between components.
 
 ## Users should be able to:
 *  See all countries from the API on the homepage
