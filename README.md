@@ -1,4 +1,4 @@
-# Worldpedia - A React application consuming countries API with use of react hooks and context to pass data between components.
+## Worldpedia - A React application consuming countries API with use of react hooks and context to pass data between components.
 
 ## Dependencies
 * react router
